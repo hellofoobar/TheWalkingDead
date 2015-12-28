@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25CCCCC1C30C8B100D3CB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25CCCCB1C30C8B100D3CB56 /* AppDelegate.swift */; };
+		F25CCCCE1C30C8B100D3CB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25CCCCD1C30C8B100D3CB56 /* ViewController.swift */; };
+		F25CCCD11C30C8B100D3CB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25CCCCF1C30C8B100D3CB56 /* Main.storyboard */; };
+		F25CCCD31C30C8B100D3CB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25CCCD21C30C8B100D3CB56 /* Assets.xcassets */; };
+		F25CCCD61C30C8B100D3CB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25CCCD41C30C8B100D3CB56 /* LaunchScreen.storyboard */; };
+		F25CCCE11C30C8B100D3CB56 /* TheWalkingDeadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25CCCE01C30C8B100D3CB56 /* TheWalkingDeadTests.swift */; };
+		F25CCCEC1C30C8B100D3CB56 /* TheWalkingDeadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25CCCEB1C30C8B100D3CB56 /* TheWalkingDeadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25CCCDD1C30C8B100D3CB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25CCCC01C30C8B100D3CB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25CCCC71C30C8B100D3CB56;
+			remoteInfo = TheWalkingDead;
+		};
+		F25CCCE81C30C8B100D3CB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25CCCC01C30C8B100D3CB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25CCCC71C30C8B100D3CB56;
+			remoteInfo = TheWalkingDead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25CCCC81C30C8B100D3CB56 /* TheWalkingDead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWalkingDead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25CCCCB1C30C8B100D3CB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25CCCCD1C30C8B100D3CB56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25CCCD01C30C8B100D3CB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25CCCD21C30C8B100D3CB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25CCCD51C30C8B100D3CB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25CCCD71C30C8B100D3CB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25CCCDC1C30C8B100D3CB56 /* TheWalkingDeadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWalkingDeadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25CCCE01C30C8B100D3CB56 /* TheWalkingDeadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWalkingDeadTests.swift; sourceTree = "<group>"; };
+		F25CCCE21C30C8B100D3CB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25CCCE71C30C8B100D3CB56 /* TheWalkingDeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWalkingDeadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25CCCEB1C30C8B100D3CB56 /* TheWalkingDeadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWalkingDeadUITests.swift; sourceTree = "<group>"; };
+		F25CCCED1C30C8B100D3CB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25CCCC51C30C8B100D3CB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25CCCD91C30C8B100D3CB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25CCCE41C30C8B100D3CB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25CCCBF1C30C8B100D3CB56 = {
+			isa = PBXGroup;
+			children = (
+				F25CCCCA1C30C8B100D3CB56 /* TheWalkingDead */,
+				F25CCCDF1C30C8B100D3CB56 /* TheWalkingDeadTests */,
+				F25CCCEA1C30C8B100D3CB56 /* TheWalkingDeadUITests */,
+				F25CCCC91C30C8B100D3CB56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25CCCC91C30C8B100D3CB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25CCCC81C30C8B100D3CB56 /* TheWalkingDead.app */,
+				F25CCCDC1C30C8B100D3CB56 /* TheWalkingDeadTests.xctest */,
+				F25CCCE71C30C8B100D3CB56 /* TheWalkingDeadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25CCCCA1C30C8B100D3CB56 /* TheWalkingDead */ = {
+			isa = PBXGroup;
+			children = (
+				F25CCCCB1C30C8B100D3CB56 /* AppDelegate.swift */,
+				F25CCCCD1C30C8B100D3CB56 /* ViewController.swift */,
+				F25CCCCF1C30C8B100D3CB56 /* Main.storyboard */,
+				F25CCCD21C30C8B100D3CB56 /* Assets.xcassets */,
+				F25CCCD41C30C8B100D3CB56 /* LaunchScreen.storyboard */,
+				F25CCCD71C30C8B100D3CB56 /* Info.plist */,
+			);
+			path = TheWalkingDead;
+			sourceTree = "<group>";
+		};
+		F25CCCDF1C30C8B100D3CB56 /* TheWalkingDeadTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25CCCE01C30C8B100D3CB56 /* TheWalkingDeadTests.swift */,
+				F25CCCE21C30C8B100D3CB56 /* Info.plist */,
+			);
+			path = TheWalkingDeadTests;
+			sourceTree = "<group>";
+		};
+		F25CCCEA1C30C8B100D3CB56 /* TheWalkingDeadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F25CCCEB1C30C8B100D3CB56 /* TheWalkingDeadUITests.swift */,
+				F25CCCED1C30C8B100D3CB56 /* Info.plist */,
+			);
+			path = TheWalkingDeadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25CCCC71C30C8B100D3CB56 /* TheWalkingDead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25CCCF01C30C8B100D3CB56 /* Build configuration list for PBXNativeTarget "TheWalkingDead" */;
+			buildPhases = (
+				F25CCCC41C30C8B100D3CB56 /* Sources */,
+				F25CCCC51C30C8B100D3CB56 /* Frameworks */,
+				F25CCCC61C30C8B100D3CB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheWalkingDead;
+			productName = TheWalkingDead;
+			productReference = F25CCCC81C30C8B100D3CB56 /* TheWalkingDead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25CCCDB1C30C8B100D3CB56 /* TheWalkingDeadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25CCCF31C30C8B100D3CB56 /* Build configuration list for PBXNativeTarget "TheWalkingDeadTests" */;
+			buildPhases = (
+				F25CCCD81C30C8B100D3CB56 /* Sources */,
+				F25CCCD91C30C8B100D3CB56 /* Frameworks */,
+				F25CCCDA1C30C8B100D3CB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25CCCDE1C30C8B100D3CB56 /* PBXTargetDependency */,
+			);
+			name = TheWalkingDeadTests;
+			productName = TheWalkingDeadTests;
+			productReference = F25CCCDC1C30C8B100D3CB56 /* TheWalkingDeadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25CCCE61C30C8B100D3CB56 /* TheWalkingDeadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25CCCF61C30C8B100D3CB56 /* Build configuration list for PBXNativeTarget "TheWalkingDeadUITests" */;
+			buildPhases = (
+				F25CCCE31C30C8B100D3CB56 /* Sources */,
+				F25CCCE41C30C8B100D3CB56 /* Frameworks */,
+				F25CCCE51C30C8B100D3CB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25CCCE91C30C8B100D3CB56 /* PBXTargetDependency */,
+			);
+			name = TheWalkingDeadUITests;
+			productName = TheWalkingDeadUITests;
+			productReference = F25CCCE71C30C8B100D3CB56 /* TheWalkingDeadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25CCCC01C30C8B100D3CB56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = foobar;
+				TargetAttributes = {
+					F25CCCC71C30C8B100D3CB56 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F25CCCDB1C30C8B100D3CB56 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F25CCCC71C30C8B100D3CB56;
+					};
+					F25CCCE61C30C8B100D3CB56 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F25CCCC71C30C8B100D3CB56;
+					};
+				};
+			};
+			buildConfigurationList = F25CCCC31C30C8B100D3CB56 /* Build configuration list for PBXProject "TheWalkingDead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25CCCBF1C30C8B100D3CB56;
+			productRefGroup = F25CCCC91C30C8B100D3CB56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25CCCC71C30C8B100D3CB56 /* TheWalkingDead */,
+				F25CCCDB1C30C8B100D3CB56 /* TheWalkingDeadTests */,
+				F25CCCE61C30C8B100D3CB56 /* TheWalkingDeadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25CCCC61C30C8B100D3CB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25CCCD61C30C8B100D3CB56 /* LaunchScreen.storyboard in Resources */,
+				F25CCCD31C30C8B100D3CB56 /* Assets.xcassets in Resources */,
+				F25CCCD11C30C8B100D3CB56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25CCCDA1C30C8B100D3CB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25CCCE51C30C8B100D3CB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25CCCC41C30C8B100D3CB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25CCCCE1C30C8B100D3CB56 /* ViewController.swift in Sources */,
+				F25CCCCC1C30C8B100D3CB56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25CCCD81C30C8B100D3CB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25CCCE11C30C8B100D3CB56 /* TheWalkingDeadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25CCCE31C30C8B100D3CB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25CCCEC1C30C8B100D3CB56 /* TheWalkingDeadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25CCCDE1C30C8B100D3CB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25CCCC71C30C8B100D3CB56 /* TheWalkingDead */;
+			targetProxy = F25CCCDD1C30C8B100D3CB56 /* PBXContainerItemProxy */;
+		};
+		F25CCCE91C30C8B100D3CB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25CCCC71C30C8B100D3CB56 /* TheWalkingDead */;
+			targetProxy = F25CCCE81C30C8B100D3CB56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25CCCCF1C30C8B100D3CB56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25CCCD01C30C8B100D3CB56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25CCCD41C30C8B100D3CB56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25CCCD51C30C8B100D3CB56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25CCCEE1C30C8B100D3CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F25CCCEF1C30C8B100D3CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25CCCF11C30C8B100D3CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheWalkingDead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foobar.TheWalkingDead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F25CCCF21C30C8B100D3CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheWalkingDead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foobar.TheWalkingDead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F25CCCF41C30C8B100D3CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheWalkingDeadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foobar.TheWalkingDeadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWalkingDead.app/TheWalkingDead";
+			};
+			name = Debug;
+		};
+		F25CCCF51C30C8B100D3CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheWalkingDeadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foobar.TheWalkingDeadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWalkingDead.app/TheWalkingDead";
+			};
+			name = Release;
+		};
+		F25CCCF71C30C8B100D3CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheWalkingDeadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foobar.TheWalkingDeadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheWalkingDead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F25CCCF81C30C8B100D3CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheWalkingDeadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foobar.TheWalkingDeadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheWalkingDead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25CCCC31C30C8B100D3CB56 /* Build configuration list for PBXProject "TheWalkingDead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25CCCEE1C30C8B100D3CB56 /* Debug */,
+				F25CCCEF1C30C8B100D3CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25CCCF01C30C8B100D3CB56 /* Build configuration list for PBXNativeTarget "TheWalkingDead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25CCCF11C30C8B100D3CB56 /* Debug */,
+				F25CCCF21C30C8B100D3CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F25CCCF31C30C8B100D3CB56 /* Build configuration list for PBXNativeTarget "TheWalkingDeadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25CCCF41C30C8B100D3CB56 /* Debug */,
+				F25CCCF51C30C8B100D3CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F25CCCF61C30C8B100D3CB56 /* Build configuration list for PBXNativeTarget "TheWalkingDeadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25CCCF71C30C8B100D3CB56 /* Debug */,
+				F25CCCF81C30C8B100D3CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25CCCC01C30C8B100D3CB56 /* Project object */;
+}
