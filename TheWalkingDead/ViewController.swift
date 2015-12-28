@@ -24,10 +24,9 @@ class ViewController: UIViewController {
             
             scrollView.addSubview(imgView)
             
-            imgView.frame = CGRectMake(-WIDTH + (WIDTH * CGFloat(x)), 196, WIDTH, HEIGHT)
+            imgView.frame = CGRectMake(-WIDTH - 60 + ((WIDTH + 120) * CGFloat(x)), 285, WIDTH, HEIGHT)
         }
-        
-        scrollView.contentSize = CGSizeMake(WIDTH * 5, scrollView.frame.size.height)
+        scrollView.contentSize = CGSizeMake((WIDTH + 120) * 5, scrollView.frame.size.height)
     }
 }
 
